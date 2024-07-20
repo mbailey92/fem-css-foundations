@@ -8,3 +8,28 @@
 .home .main__subheading {
   font-size: 40px;
 }
+
+.home .menu path {
+  fill: var(--color-text-on-primary);
+}
+
+.home .close path {
+  fill: var(--color-text-on-primary);
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1200px) {
+  .home .main__heading {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 800px) {
+  .home .main__heading {
+    font-size: 32px;
+  }
+
+  .home .main__subheading {
+    font-size: 20px;
+  }
+}
